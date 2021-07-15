@@ -7,7 +7,6 @@ const square = document.getElementsByClassName('div1');
 
 function showResults (title, result) {
     
-    
     const div1 = document.createElement('div')
     const katas = document.createElement('h2')
     const text = document.createElement('p')
@@ -166,7 +165,7 @@ function kata14() {
                 newArray.push(sampleArray[i] * sampleArray[i])
         } 
         showResults("KATA 14", newArray)
-        return
+        return newArray
 }
 kata14()
 
