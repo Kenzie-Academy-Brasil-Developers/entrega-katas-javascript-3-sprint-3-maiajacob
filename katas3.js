@@ -121,7 +121,7 @@ kata9()
 
 function kata10() {
     showResults("KATA 10", sampleArray)
-    return 
+    return newArray
 }
 kata10()
 
@@ -139,7 +139,7 @@ kata11()
 
 function kata12() {
     let newArray = [];
-        for (let i = 0; i <= sampleArray.length; i++) {
+        for (let i = 0; i < sampleArray.length; i++) {
             if (sampleArray[i] % 2 !== 0) {
                 newArray.push(sampleArray[i])
             }
@@ -161,7 +161,7 @@ kata13()
 
 function kata14() {
     let newArray = [];
-        for (let i = 0; i <= sampleArray.length; i++) {
+        for (let i = 0; i < sampleArray.length; i++) {
                 newArray.push(sampleArray[i] * sampleArray[i])
         } 
         showResults("KATA 14", newArray)
