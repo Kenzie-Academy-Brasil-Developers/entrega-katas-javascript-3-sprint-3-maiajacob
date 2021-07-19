@@ -121,8 +121,8 @@ kata9()
 
 function kata10() {
     showResults("KATA 10", sampleArray)
-    return newArray
 }
+
 kata10()
 
 
